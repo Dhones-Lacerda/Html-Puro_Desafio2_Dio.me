@@ -4,7 +4,7 @@
 
 Este projeto consiste na criação de um site fictício para a clínica veterinária **PetCare**. O objetivo principal é fornecer informações claras e acessíveis sobre os serviços oferecidos, horários de atendimento, informações de contato e sobre a equipe que compõe a clínica.
 
-O site é composto por quatro páginas principais: **Home**, **Sobre Nós**, **Horários de Atendimento** e **Contato**. A estrutura do site é simples e foi desenvolvida utilizando apenas HTML e CSS, seguindo boas práticas de acessibilidade e design responsivo.
+O site é composto por quatro páginas principais: **Home**, **Sobre Nós**, **Horários de Atendimento** e **Contato**. A estrutura do site é simples e foi desenvolvida utilizando apenas HTML e CSS, seguindo boas práticas de acessibilidade.
 
 ## Estrutura do Site
 
@@ -36,12 +36,12 @@ A página de contato permite que os usuários entrem em contato com a clínica p
 
 ## Estilização
 
-O estilo do site é gerido por um único arquivo CSS (`styles.css`). A abordagem de design é simples e limpa, com foco na usabilidade e na clareza das informações. As cores utilizadas são neutras e profissionais, com um layout que se adapta a diferentes tamanhos de tela.
+O estilo do site é gerido por um único arquivo CSS (`styles.css`). A abordagem de design é simples e limpa, com foco na usabilidade e na clareza das informações. As cores utilizadas são neutras e o foco é apenas no html.
 
 ## Tecnologias Utilizadas
 
 - **HTML5**: Para a estruturação do conteúdo das páginas.
-- **CSS3**: Para a estilização das páginas e criação de um layout responsivo.
+- **CSS3**: Tem apenas um arquivo base para o desafio Dio.me.
 
 ## Como Executar o Projeto
 
@@ -51,4 +51,4 @@ O estilo do site é gerido por um único arquivo CSS (`styles.css`). A abordagem
 
 ## Considerações Finais
 
-Este projeto é uma representação básica de um site institucional para uma clínica veterinária. Ele pode ser expandido com funcionalidades adicionais, como integração com sistemas de agendamento online, mapas interativos e SEO para melhorar a visibilidade nos motores de busca.
+Este projeto é uma representação básica de um site institucional para uma clínica veterinária.

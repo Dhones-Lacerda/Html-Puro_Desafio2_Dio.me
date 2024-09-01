@@ -1,74 +1,54 @@
-# Trilha HTML - Dio.me
-## Módulo 02 - HTML I - Conceitos Básicos
+# Projeto: Site da Clínica Veterinária PetCare
 
-Este desafio tem como objetivo, criar um site "quase" completo, com tudo o que vimos neste módulo. Os temas que deverão ser abordados são:
-- Formulários
-- Estruturação e formatação de texto
-- Mídias
-- Tabelas
+## Visão Geral
 
-Além de outros recursos falados nas aulas!
+Este projeto consiste na criação de um site fictício para a clínica veterinária **PetCare**. O objetivo principal é fornecer informações claras e acessíveis sobre os serviços oferecidos, horários de atendimento, informações de contato e sobre a equipe que compõe a clínica.
 
-## Instruções
-1. Você deve criar um site de uma clínica médica (você escolhe a especialidade)
-2. Este site deve conter o seguinte menu de navegação:
-    - Página Principal
-    - Sobre a clínica
-    - Horário de Atendimento
-    - Contato
-3. Deve, obrigatoriamente, utilizar todas os assuntos abordados nas aulas.
+O site é composto por quatro páginas principais: **Home**, **Sobre Nós**, **Horários de Atendimento** e **Contato**. A estrutura do site é simples e foi desenvolvida utilizando apenas HTML e CSS, seguindo boas práticas de acessibilidade e design responsivo.
 
-Abaixo como cada página deve ser criada e estruturada.
+## Estrutura do Site
 
-### Estrutura das páginas
+### 1. Home (`index.html`)
 
-Todas as páginas terão que seguir um padrão pré-definido. Como não aprendemos sobre CSS ainda, utilize o arquivo `template.html` para utilizar como base. Ele segue uma estrutura semelhante a image abaixo.
+A página inicial apresenta uma introdução à PetCare e uma visão geral dos principais serviços oferecidos pela clínica. Esta página inclui:
+- Um cabeçalho com o nome da clínica e um menu de navegação.
+- Uma seção de boas-vindas com uma breve descrição da missão da PetCare.
+- Uma lista de serviços disponíveis na clínica.
 
-![Estrutura](https://i.stack.imgur.com/9jI6f.gif)
+### 2. Sobre Nós (`sobre.html`)
 
-\* _No template tem algumas cores mas é apenas para melhor visualização. Fique a vontade para alterar da melhor forma._
+Esta página fornece uma visão detalhada sobre a clínica e sua equipe. Inclui:
+- Uma descrição da missão e valores da PetCare.
+- Informações sobre a equipe de veterinários e profissionais que trabalham na clínica.
 
-No **Menu**, ficará localizado o menu de navegação (ah vá!), no **Header** de cada página ficará uma imagem, no **Footer** informações de contato, e o **Content** é o conteúdo de cada página.
-### Página Principal
-1. Deve ter uma imagem no **Header**.
-2. Em **Content** uma breve descrição sobre a clínica.
-3. **Menu** e **Footer** padrões em todas as páginas.
+### 3. Horários de Atendimento (`horarios.html`)
 
-### Sobre a clínica
-1. Deve ter uma imagem diferente no **Header**.
-2. Em **Content** um texto falando sobre a clínica.
-3. **Menu** e **Footer** padrões em todas as páginas.
+A página de horários exibe as informações de funcionamento da clínica, organizadas em uma tabela para facilitar a visualização. Contém:
+- Uma tabela com os dias da semana e os respectivos horários de atendimento.
+- Informações sobre atendimento de emergência fora do horário comercial.
 
-### Horário de Atendimento
-1. Deve ter uma imagem diferente no **Header**.
-2. Em **Content** um pequeno texto falando sobre os serviços, e uma tabela de preços, onde cada linha é um serviço, com o preço de cada um de acordo com os dias da semana.
+### 4. Contato (`contato.html`)
 
-|Serviços |Segunda a Sexta | Sábados | Feriados |
-|---|---|---|---|
-|Clínica geral | 08h - 19h  | 08h - 14h | 08h - 14h  |
-|Psicologia | 08h - 19h  | 08h - 14h | 08h - 14h  |
-|Pediatria | 08h - 19h  | 08h - 18h | - |
-|Oftalmologia | 08h - 19h  | 08h - 18h | - |
-|||||
+A página de contato permite que os usuários entrem em contato com a clínica para agendar consultas ou tirar dúvidas. Inclui:
+- Um formulário para envio de mensagens com campos para nome, e-mail, assunto e mensagem.
+- Informações de contato, como telefone, e-mail e endereço físico.
+- Uma seção para exibir a localização da clínica (onde um mapa interativo pode ser inserido).
 
-3. **Menu** e **Footer** padrões em todas as páginas.
+## Estilização
 
+O estilo do site é gerido por um único arquivo CSS (`styles.css`). A abordagem de design é simples e limpa, com foco na usabilidade e na clareza das informações. As cores utilizadas são neutras e profissionais, com um layout que se adapta a diferentes tamanhos de tela.
 
-### Contato
-1. Deve ter uma imagem diferente no **Header**.
-2. Em **Content** deve ter:
-    - Os telefones de contato (celular e whatsapp)
-    - Endereço completo da clínica
-    - Um Iframe com o Google Maps apontando o endereço da clínica
-    - Um formulário de contato com:
-        - Nome (type="text")
-        - E-mail (type="email")
-        - Assunto (type="text")
-        - Mensagem (textarea)
-        - Botões de envias e limpar formulário
+## Tecnologias Utilizadas
 
-3. **Menu** e **Footer** padrões em todas as páginas.
+- **HTML5**: Para a estruturação do conteúdo das páginas.
+- **CSS3**: Para a estilização das páginas e criação de um layout responsivo.
 
-Desafio está lançado! Com tudo que aprendemos no Módulo II é perfeitamente possível criar este site! 
+## Como Executar o Projeto
 
-Bora pra cima!
+1. Clone o repositório para o seu ambiente local.
+2. Abra os arquivos HTML no seu navegador de preferência.
+3. O site estará totalmente funcional e pronto para navegação.
+
+## Considerações Finais
+
+Este projeto é uma representação básica de um site institucional para uma clínica veterinária. Ele pode ser expandido com funcionalidades adicionais, como integração com sistemas de agendamento online, mapas interativos e SEO para melhorar a visibilidade nos motores de busca.
